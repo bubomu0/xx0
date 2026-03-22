@@ -1,1 +1,155 @@
-test
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lumina Web Solutions - クリエイティブなWeb制作とマーケティング</title>
+    <style>
+        :root {
+            --primary-color: #2563eb;
+            --text-color: #333;
+            --bg-color: #f9fafb;
+            --footer-bg: #1f2937;
+            --footer-text: #e5e7eb;
+        }
+        body {
+            font-family: 'Helvetica Neue', Arial, 'Hiragino Kaku Gothic ProN', 'Hiragino Sans', Meiryo, sans-serif;
+            line-height: 1.6;
+            color: var(--text-color);
+            background-color: var(--bg-color);
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #fff;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            padding: 1rem 5%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .logo {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: var(--primary-color);
+            text-decoration: none;
+        }
+        .hero {
+            text-align: center;
+            padding: 5rem 1rem;
+            background: linear-gradient(135deg, #eff6ff 0%, #dbeafe 100%);
+        }
+        .hero h1 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+        .hero p {
+            font-size: 1.2rem;
+            color: #4b5563;
+        }
+        .services {
+            padding: 4rem 5%;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .services h2 {
+            text-align: center;
+            font-size: 2rem;
+            margin-bottom: 3rem;
+        }
+        .service-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+        }
+        .service-card {
+            background: #fff;
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+            text-align: center;
+        }
+        .service-card h3 {
+            color: var(--primary-color);
+            margin-bottom: 1rem;
+        }
+        footer {
+            background-color: var(--footer-bg);
+            color: var(--footer-text);
+            padding: 3rem 5%;
+            text-align: center;
+        }
+        .footer-info {
+            margin-bottom: 2rem;
+            font-size: 0.95rem;
+        }
+        .footer-info p {
+            margin: 0.5rem 0;
+        }
+        .footer-links {
+            margin-top: 1.5rem;
+        }
+        .footer-links a {
+            color: #9ca3af;
+            text-decoration: none;
+            margin: 0 1rem;
+            font-size: 0.9rem;
+        }
+        .footer-links a:hover {
+            color: #fff;
+        }
+        .copyright {
+            margin-top: 2rem;
+            font-size: 0.8rem;
+            color: #6b7280;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <a href="index.html" class="logo">Lumina Web Solutions</a>
+</header>
+
+<section class="hero">
+    <h1>ビジネスの未来を、Webの力で加速する</h1>
+    <p>ユーザー視点のデザインと戦略的マーケティングで、あなたの事業成長をサポートします。</p>
+</section>
+
+<section class="services">
+    <h2>事業内容</h2>
+    <div class="service-grid">
+        <div class="service-card">
+            <h3>Webサイト制作</h3>
+            <p>コーポレートサイト、ランディングページ（LP）、オウンドメディアなど、目的に合わせた最適なWebサイトを構築します。スマホ対応（レスポンシブ）とSEO対策を標準で実装します。</p>
+        </div>
+        <div class="service-card">
+            <h3>マーケティング支援</h3>
+            <p>Web広告運用、SEO施策、SNSマーケティングを組み合わせ、集客からコンバージョンまでの導線を設計。リード獲得と売上向上を実現します。</p>
+        </div>
+        <div class="service-card">
+            <h3>アクセス解析・改善提案</h3>
+            <p>Googleアナリティクス等を用いたデータ分析に基づき、サイトのボトルネックを特定。継続的な改善提案により、コンバージョン率（CVR）の最大化を図ります。</p>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <div class="footer-info">
+        <strong>Lumina Web Solutions</strong>
+        <p>代表：高橋 健太</p>
+        <p>〒160-0023 東京都新宿区西新宿6丁目12-1 パークタワー西新宿 1205号室</p>
+        <p>TEL: 090-1056-4417</p>
+        <p>Email: bubjakdk0@gmail.com</p>
+    </div>
+    <div class="footer-links">
+        <a href="privacy.html">プライバシーポリシー</a>
+        <a href="law.html">特定商取引法に基づく表記</a>
+    </div>
+    <div class="copyright">
+        &copy; 2026 Lumina Web Solutions. All Rights Reserved.
+    </div>
+</footer>
+
+</body>
+</html>
